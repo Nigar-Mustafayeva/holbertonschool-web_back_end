@@ -1,0 +1,8 @@
+// 6-update
+
+// Update all documents with name "Holberton school" to add the address field
+db.school.update(
+    { name: "Holberton school" },   // filter
+    { $set: { address: "972 Mission street" } }, // update
+    { multi: true }                 // update all matching documents
+);
