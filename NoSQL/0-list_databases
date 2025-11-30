@@ -1,2 +1,4 @@
-// Connects to the MongoDB server and lists all databases
-db.adminCommand('listDatabases');
+// 0-list_databases
+
+// Connect to MongoDB and list all databases
+show dbs;
